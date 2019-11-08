@@ -10,8 +10,13 @@ bot.onText(/\/start/, msg => {
   bot.sendMessage(id, debug(msg))
 })
 
-bot.onText(/\/help (+)/, (msg, arr) => {
+bot.onText(/\/help (+)/, (msg, [source, match]) => {
   const { id } =msg.chat
 
   bot.sendMessage(id, debug(msg))
+
+})
+bot.on('massage', msg =>{
+  bot.sendMessage(msg.chat.id, 'Message')
+  
 })
