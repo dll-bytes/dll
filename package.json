@@ -1,0 +1,27 @@
+{
+  "name": "dff",
+  "version": "1.0.0",
+  "description": "tele",
+  "main": "helpers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dll-bytes/dll.git"
+  },
+  "keywords": [
+    "ru"
+  ],
+  "author": "dmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dll-bytes/dll/issues"
+  },
+  "homepage": "https://github.com/dll-bytes/dll#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0",
+    "require": "^2.4.20"
+  }
+}
