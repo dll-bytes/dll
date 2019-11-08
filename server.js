@@ -16,7 +16,12 @@ bot.onText(/\/help (+)/, (msg, [source, match]) => {
   bot.sendMessage(id, debug(msg))
 
 })
+ const html  =
+ <strong> bug, ${msg.from.first_name}</strong>
+ <pre>
+  ${debug(msg)}
+  </pre>
 bot.on('massage', msg =>{
   bot.sendMessage(msg.chat.id, 'Message')
-  
+
 })
